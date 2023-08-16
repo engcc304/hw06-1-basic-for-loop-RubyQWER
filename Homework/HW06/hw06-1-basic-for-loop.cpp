@@ -30,3 +30,23 @@
         [7] Hello World
 
 */
+#include <stdio.h>
+
+int main () {
+
+    int N,i ;
+    //INPUT NUMBER
+    printf("Enter Number :") ;
+    scanf("%d",&N) ;
+    printf("\n") ; 
+
+    if( N % 2 == 0 ) {
+        for(i = 1; i <= N; i++) 
+        printf("(%d) Hello World\n",i) ;
+
+    }   else for(i = 1; i <= N; i++) 
+        printf("[%d] Hello World\n",i) ;
+    
+
+    return 0;
+}//end function
